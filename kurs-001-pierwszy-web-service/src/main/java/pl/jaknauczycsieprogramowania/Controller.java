@@ -23,6 +23,6 @@ public class Controller {
     @GetMapping("/hello3/{name}")
     @ResponseBody
     public String hello3(@PathVariable("name") String name) {
-        return "Hello3 " + name;
+        return "Hello " + name;
     }
 }
